@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="./css/style.css">
+  <title>neon</title>
+</head>
+
+<body>
+  <header class="header flex">
+    <button class="burger" aria-label="меню">
+      <span id="burger" class="burger__btn"></span>
+    </button>
+    <div class="header__social">
+      <a href="" aria-label="фейсбук" class="social-link"><img src="./img/fb.svg" alt="" class="social-logo"></a>
+      <a href="" aria-label="вконтакте" class="social-link"><img src="./img/vk.png" alt="" class="social-logo"></a>
+      <a href="" aria-label="инстаграм" class="social-link"><img src="./img/instagram.svg" alt=""
+          class="social-logo"></a>
+    </div>
+    <div>
+      <ul id="menu">
+        <li class="nav__item"><a href="" class="nav__link">ГЛАВНАЯ</a></li>
+        <li class="nav__item"><a href="" class="nav__link">ИНТЕРЬЕР</a></li>
+        <li class="nav__item"><a href="" class="nav__link">МЕНЮ</a></li>
+        <li class="nav__item"><a href="" class="nav__link">СТАТЬИ</a></li>
+        <li class="nav__item"><a href="" class="nav__link">АКЦИИ</a></li>
+      </ul>
+    </div>
+    <nav class="nav flex">
+      <ul class="flex">
+        <li class="nav__item"><a href="" class="nav__link">ГЛАВНАЯ</a></li>
+        <li class="nav__item"><a href="" class="nav__link">ИНТЕРЬЕР</a></li>
+        <li class="nav__item"><a href="" class="nav__link">МЕНЮ</a></li>
+        <li class="nav__item"><a href="" class="nav__link">СТАТЬИ</a></li>
+        <li class="nav__item"><a href="" class="nav__link">АКЦИИ</a></li>
+      </ul>
+    </nav>
+    <button class="btn">БРОНЬ</button>
+  </header>
+  <main>
+    <section class="about">
+      <div class="about__logo"><img src="./img/logo.png" alt="logo" class="logo"></div>
+      <div class="about__info">Неоновый бутик - московский уютный авторский лаундж бар в стиле 80-ых</div>
+      <div class="flex about__place">
+        <div class="about__adr">г.Москва, ул. Мясницкая, дом 36, стр. 2</div>
+        <img src="./img/clock.png" alt="">
+        <div class="about__clock">
+          <div>Часы работы:</div>
+          <div>ПН - ЧТ: <u>с 12:00 до 23:00</u></div>
+          <div>ПТ - ВС: <u>с 12:00 до 01:00</u></div>
+        </div>
+      </div>
+      <div class="about__tel-block flex">
+        <a href="tel:+74953225448" class="about__tel">+7 495 322 54 48</a>
+        <div class="header__social-768px">
+          <a href="" aria-label="фейсбук" class="social-link"><img src="./img/fb.svg" alt="" class="social-logo"></a>
+          <a href="" aria-label="вконтакте" class="social-link"><img src="./img/vk.png" alt="" class="social-logo"></a>
+          <a href="" aria-label="инстаграм" class="social-link"><img src="./img/instagram.svg" alt=""
+              class="social-logo"></a>
+        </div>
+      </div>
+    </section>
+    <section class="concept container">
+      <div class="flex concept__content">
+        <div class="concept__img">
+          <img src="./img/concept.jpg" class="img" alt="">
+        </div>
+        <div class="concept__block">
+          <h2 class="animate__animated animate__headShake animate__infinite">КОНЦЕПЦИЯ</h2>
+          <p class="concept__text"><span class="text-color">НЕОНОВЫЙ БУТИК</span> - необычный концептуальный лаунж-бар в
+            центре Москвы, созданный в стиле &laquo;невоплощенной утопии&raquo; #synthwave #vaporwave и #sovietpunk. В
+            заведении, которое по сути является &laquo;мини музеем&raquo; представлено множество арт-инсталляций из
+            техники безвозвратно ушедшей в прошлое: барная стойка из ламповых TV, меню на дискетах, графическая
+            инсталяция об истории развитии Web’a 90x/00х и многое другое, что позволит гостям не только расслабиться в
+            уютном лаунже, но и с интересом провести время, узнав для себя что-то новое об ушедшем старом. </p>
+          <p class="concept__text">Отдельного внимания заслуживает мебель нашего лаунжа: мы собрали по крупицам и
+            отреставрировали коллекционную удобную винтажную мебель 60х-70х-80х годов (ГДР, Польша, Чехословакия,
+            Венгрия, СССР).</p>
+        </div>
+      </div>
+      <div class="flex concept__icon">
+        <div class="icon">
+          <a href="" class="icon-name"><img src="./img/armchair.png" alt="">
+            <p class="menu__icon-text">АТМОСФЕРА</p>
+          </a>
+        </div>
+        <div class="icon">
+          <a href="" class="icon-name"><img src="./img/wine.png" alt="">
+            <p class="menu__icon-text">БАР</p>
+          </a>
+        </div>
+        <div class="icon">
+          <a href="" class="icon-name"><img src="./img/vinyl.png" alt="">
+            <p class="menu__icon-text">МУЗЫКА</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="inside container">
+      <h2 class="animate__animated animate__headShake animate__infinite">ИНТЕРЬЕР</h2>
+      <div class="flex concept__content">
+        <div class="concept__block">
+          <p class="concept__text"><span class="text-color">НЕОНОВЫЙ БУТИК</span> - обладает неповторимым интерьером,
+            который идеально подходит для роскошных селфи. Из окон Дискеты отрывается красивый вид на центр города,
+            которым можно наслаждаться, попивая ароматный кофе и потягивая дымный кальян. Кстати, в дневные часы у нас
+            действуют специальные скидки на набор &laquo;Macross Plus&raquo;.</p>
+          <p class="concept__text">Все наши гости могут совершенно бесплатно серфить внутри всемирной сети, играть в
+            любимые ретро игры, а в перерывах – изучать экспонаты нашего музея. Если Вы пришли к нам поработать – то у
+            вас есть возможность распечатать нужные документы.</p>
+        </div>
+        <div class="concept__img">
+          <img src="./img/inside.jpg" class="img" alt="">
+        </div>
+      </div>
+      <div class="flex concept__content">
+        <div class="concept__img">
+          <img src="./img/inside2.jpg" class="img" alt="">
+        </div>
+        <div class="concept__block">
+          <p class="concept__text">Барная стойка из ламповых TV, графические инсталляции ушедшей эпохи, меню на
+            дискетах, ретро-приставки и пинбол. Атмосферная музыка, которую не хочется выключить.</p>
+          <p class="concept__text">Каждый напиток в <span class="text-color">НЕОНОВЫЙ БУТИК</span> – это уникальное
+            авторское сочетание вкусов и ингредиентов, вдохновлённое неутолимой ностальгией по прошлому, которого не
+            было и безудержным стремлением в будущее, которое не настанет никогда. Позвольте познакомить Вас с
+            некоторыми из наших коктейлей и специальными наборами, которые пользуются особой популярностью. Приходите в
+            <span class="text-color">БУТИК</span> и попробуйте коктейли, которые Вы сможете найти только у нас!</p>
+        </div>
+      </div>
+      <div class="swiper-container swiper-wrapper-375px">
+        <div class="swiper-wrapper ">
+          <div class="swiper-slide swiper-slide-1"></div>
+          <div class="swiper-slide swiper-slide-2"></div>
+          <div class="swiper-slide swiper-slide-3"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </section>
+    <section class="menu container">
+      <h2 class="animate__animated animate__headShake animate__infinite">МЕНЮ</h2>
+      <div class="flex concept__icon menu__icon375px">
+        <div class="icon">
+          <a href="" class="icon-name"><img src="./img/Kalyan_neon-2-2.png" class="menu-icon" alt="">
+            <p class="menu__icon-text">КАЛЬЯН</p>
+          </a>
+        </div>
+        <div class="icon">
+          <a href="" class="icon-name"><img src="./img/Ikonka-bar.png" class="menu-icon" alt="">
+            <p class="menu__icon-text">БАР</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="stories container">
+      <h2 class="animate__animated animate__headShake animate__infinite">СТАТЬИ</h2>
+      
+      <div class="tab-768px">
+        <div>
+          <ul class="nav__list">
+            <li class="nav__item"><button class="nav__link" data-path="one">Киберновости</button></li>
+            <li class="nav__item"><button class="nav__link" data-path="two">Игры</button></li>
+            <li class="nav__item"><button class="nav__link" data-path="three">Фильмы и сериалы</button> </li>
+            <li class="nav__item"><button class="nav__link" data-path="four">Разное</button> </a></li>
+          </ul>
+        </div>
+        <div class="tab-content tab-content-active" data-target="one">
+          <div class="stories__block-position">
+            <a href="" class="stories__block">
+              <div class="stories__block-content stories__block-pad">
+                <h6 class="stories__text">Apple подготовливает к отправке первые iPad Pro 2021 тем, кто сделал предзаказ
+                </h6>
+                <p class="stories__text">Новые 11’’ и 12,9’’ iPad Pro на базе чипсета M1, представленные три недели
+                  назад, совсем скоро попадут в руки всем, кто успел в первых рядах оформить предварительный заказ.</p>
+                <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+              </div>
+            </a>
+            <a href="" class="stories__block">
+              <div class="stories__block-content stories__block-boston">
+                <h6 class="stories__text">Boston Dynamics обновила робота Spot. Что он теперь умеет?</h6>
+                <p class="stories__text">Новая версия робота Spot не отличается внешне от предшественника, но обладает
+                  новыми функциями.</p>
+                <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+              </div>
+            </a>
+            <a href="" class="stories__block">
+              <div class="stories__block-content stories__block-hyper">
+                <h6 class="stories__text">Вакуумный скоростной поезд Hyperloop стал реальностью</h6>
+                <p class="stories__text">За претворение идеи в жизнь взялись компании SpaceX, HTT и Virgin Hyperlopp
+                  One.</p>
+                <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="tab-content" data-target="two">
+          <div class="stories__block-position">
+            <a href="" class="stories__block">
+              <div class="stories__block-content stories__block-cyberpunk">
+                <h6 class="stories__text">ПОЧИНИЛИ?</h6>
+                <p class="stories__text">Вышел новый патч для оптимизации работы игры на ps4</p>
+                <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+              </div>
+            </a>
+            <a href="" class="stories__block">
+              <div class="stories__block-content stories__block-kena">
+                <h6 class="stories__text">Больше переносов не будет!</h6>
+                <p class="stories__text">Создатели kena bridge of spirits трудятся над продолжением.</p>
+                <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+              </div>
+            </a>
+            <a href="" class="stories__block">
+              <div class="stories__block-content stories__block-dendy">
+                <h6 class="stories__text">Во что Мы играли в 90-ых</h6>
+                <p class="stories__text">Факты, которые Вы точно не знали о классических играх 90-ых.</p>
+                <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+              </div>
+            </a>
+            <a href="" class="stories__block">
+              <div class="stories__block-content stories__block-lady">
+                <h6 class="stories__text">Леди Димитреску</h6>
+                <p class="stories__text">Кто она? Как создавался образ и спецэффекты, а также удивительные вещи о мире
+                  нового resident evil</p>
+                <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="tab-content" data-target="three">
+          <div class="stories__block-position">
+            <a href="" class="stories__block">
+              <div class="stories__block-content stories__block-dikaprio">
+                <h6 class="stories__text">снова Скорсезе, снова Ди Каприо</h6>
+                <p class="stories__text">История разворачивается в 1920-х годах вокруг индейского племени осейдж,
+                  проживающего в американском городе Оклахома.</p>
+                <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+              </div>
+            </a>
+            <a href="" class="stories__block">
+              <div class="stories__block-content stories__block-venom">
+                <h6 class="stories__text">Грядет ВЕНОМ 2</h6>
+                <p class="stories__text">Подробности о сюжете. История Карнажа. Как создавались спецэффекты. Когда уже
+                  мы увидим противостояние с Человеком-Пауком.</p>
+                <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+              </div>
+            </a>
+            <a href="" class="stories__block">
+              <div class="stories__block-content stories__block-shadow">
+                <h6 class="stories__text">«Тень и Кость»</h6>
+                <p class="stories__text">Могущественная страна Равка разделена на две части самой тьмой, где обитают
+                  опаснейшие монстры — волькры и обычный человек не проживет и минуты.</p>
+                <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+              </div>
+            </a>
+            <a href="" class="stories__block">
+              <div class="stories__block-content stories__block-dlr">
+                <h6 class="stories__text">«Смерть. Любовь. Роботы.»</h6>
+                <p class="stories__text">Второй сезон выйдет 14 мая 2021 года. Сериал продлен на 3 сезон, который выйдет
+                  в 2022 году.</p>
+                <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+              </div>
+            </a>
+            <a href="" class="stories__block">
+              <div class="stories__block-content stories__block-saw">
+                <h6 class="stories__text">То что мы любим - «БАРХАТНАЯ БЕНЗОПИЛА»</h6>
+                <p class="stories__text">Арт-критик с безупречным вкусом Морф Вандевальт ведёт размеренную и в меру
+                  скучную жизнь богемного тусовщика. Когда однажды его подруга в квартире скончавшегося соседа случайно
+                  находит целый склад неизвестных работ.</p>
+                <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="tab-content" data-target="four">
+          <p class="stories__block-four">ЛЮБОПЫТСТВО? Мне это нравится! &#128516;</p>
+        </div>
+      </div>
+
+      <div class="tab-375px">
+        <div class="nav__container">
+          <ul class="nav__list">
+            <li class="nav__item"><button class="nav__link tab__link" data-path="five">Киберновости</button></li>
+            <li class="nav__item"><button class="nav__link tab__link" data-path="six">Игры</button></li>
+            <li class="nav__item"><button class="nav__link tab__link" data-path="seven">Фильмы и сериалы</button> </li>
+            <li class="nav__item"><button class="nav__link tab__link" data-path="eight">Разное</button> </a></li>
+          </ul>
+        </div>
+        <div class="tab-content tab-content-active" data-target="five">
+          <div class="swiper-container tab-swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="" class="stories__block stories__block-375px">
+                  <div class="stories__block-content stories__block-pad">
+                    <h6 class="stories__text">Apple подготовливает к отправке первые iPad Pro 2021 тем, кто сделал предзаказ</h6>
+                    <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="stories__block stories__block-375px">
+                  <div class="stories__block-content stories__block-boston">
+                    <h6 class="stories__text">Boston Dynamics обновила робота Spot. Что он теперь умеет?</h6>
+                    <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="stories__block stories__block-375px">
+                  <div class="stories__block-content stories__block-hyper">
+                    <h6 class="stories__text">Вакуумный скоростной поезд Hyperloop стал реальностью</h6>
+                    <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </div>
+        <div class="tab-content" data-target="six">
+          <div class="swiper-container tab-swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="" class="stories__block stories__block-375px">
+                  <div class="stories__block-content stories__block-cyberpunk">
+                    <h6 class="stories__text">ПОЧИНИЛИ?</h6>
+                    <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="stories__block stories__block-375px">
+                  <div class="stories__block-content stories__block-kena">
+                    <h6 class="stories__text">Больше переносов не будет!</h6>
+                    <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="stories__block stories__block-375px">
+                  <div class="stories__block-content stories__block-dendy">
+                    <h6 class="stories__text">Во что Мы играли в 90-ых</h6>
+                    <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="stories__block stories__block-375px">
+                  <div class="stories__block-content stories__block-lady">
+                    <h6 class="stories__text">Леди Димитреску</h6>
+                    <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </div>
+        <div class="tab-content" data-target="seven">
+          <div class="swiper-container tab-swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="" class="stories__block stories__block-375px">
+                  <div class="stories__block-content stories__block-dikaprio">
+                    <h6 class="stories__text">снова Скорсезе, снова Ди Каприо</h6>
+                    <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="stories__block stories__block-375px">
+                  <div class="stories__block-content stories__block-venom">
+                    <h6 class="stories__text">Грядет ВЕНОМ 2</h6>
+                    <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="stories__block stories__block-375px">
+                  <div class="stories__block-content stories__block-shadow">
+                    <h6 class="stories__text">«Тень и Кость»</h6>
+                    <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="stories__block stories__block-375px">
+                  <div class="stories__block-content stories__block-dlr">
+                    <h6 class="stories__text">«Смерть. Любовь. Роботы.»</h6>
+                    <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="stories__block stories__block-375px">
+                  <div class="stories__block-content stories__block-saw">
+                    <h6 class="stories__text">То что мы любим - «БАРХАТНАЯ БЕНЗОПИЛА»</h6>
+                    <p class="stories__link">Подробнее &nbsp; &rArr;</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sale container">
+      <h2>АКЦИИ</h2>
+      <div class="flex sale__block">
+        <div class="sale__discription">
+          <div class="sale__discription-days"><u>ПН - ЧТ:</u></div>
+          <div class="sale__discription-price">ЛЮБОЙ АЛКОГОЛЬНЫЙ НАПИТОК &nbsp;<span class="sale__price"> 300 ₽</span>
+          </div>
+        </div>
+        <div class="sale__discription">
+          <div class="sale__discription-days"><u>КАЖДЫЙ ДЕНЬ до 18:00</u></div>
+          <div class="sale__discription-price">СКИДКА &nbsp;<span class="sale__price"> 10 % </span>&nbsp; на кальян
+          </div>
+        </div>
+      </div>
+      <div class="flex sale__kianu">
+        <div class="sale__kianu-img">
+          <img src="./img/silverhand.jpg" class="img" alt="">
+        </div>
+        <div class="glass-block"></div>
+        <div class="sale__kianu-text">
+          НАЗОВИ БАРМЕНУ ПАРОЛЬ «КИАНУ РИВЗ ЛАПОЧКА» - <u>ПОЛУЧИ КИБЕРШОТ</u>
+        </div>
+      </div>
+
+    </section>
+    <section class="talk container">
+      <h2>ОТЗЫВЫ</h2>
+      <div class="flex talk__flex">
+        <div class="swiper-container talk__block talk__block-left">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide-padding">
+              <div class="talk__block-left-discription">
+                <div>
+                  <h5>Билл Клинтон</h5>
+                  <div class="customScroll" data-simplebar>
+                    Отличное место! Отличный кальян! Отличный персонал! Уютно, дружелюбно. Обязательно вернусь с
+                    компанией. Хочется отдельно отметить бармена, который помог в выборе напитка и сопроводил его
+                    отличными историями о прошлых местах работы
+                  </div>
+                </div>
+              </div>
+              <div class="talk__block-left-discription">
+                <div>
+                  <h5>Хиллари Клинтон</h5>
+                  <div class="customScroll" data-simplebar>
+                    Заведение посоветовал муж. Была приятно удивлена по-домашнему уютной атмосферой и отличным барным
+                    меню
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide slide-padding">
+              <div class="talk__block-left-discription">
+                <div>
+                  <h5>Барак Обама</h5>
+                  <div class="customScroll" data-simplebar>
+                    Пожалуй, нашел для себя идеальное место в Москве, где чувствуюешь себя в своей тарелке. Вокруг
+                    интересные люди, прекрасная музыка, вкусные напитки. Можно заказать еду к сторику
+                  </div>
+                </div>
+              </div>
+              <div class="talk__block-left-discription">
+                <div>
+                  <h5>Мишель Обама</h5>
+                  <div class="customScroll" data-simplebar>
+                    Была приятно удивлена по-домашнему уютной атмосферой и отличным барным меню
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide slide-padding">
+              <div class="talk__block-left-discription">
+                <div>
+                  <h5>Джордж Буш</h5>
+                  <div class="customScroll" data-simplebar>
+                    Обязательно вернусь с компанией. Хочется отдельно отметить бармена, который помог в выборе напитка и
+                    сопроводил его отличными историями о прошлых местах работы
+                  </div>
+                </div>
+              </div>
+              <div class="talk__block-left-discription">
+                <div>
+                  <h5>Джордж Буш младший</h5>
+                  <div class="customScroll" data-simplebar>
+                    Отец не разрешил пойти с ним
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+        <div class="talk__block">
+          <h3>Оставь свой отзыв!</h3>
+          <form action="https://jsonplaceholder.typicode.com/" method="POST" class="talk__form">
+            <input type="text" class="talk__input" name="name" method="POST" required autocomplete="on"
+              placeholder="Фамилия и имя*">
+            <input type="email" class="talk__input" name="email" method="POST" required autocomplete="on"
+              placeholder="E-mail*">
+            <textarea name="massage" class="talk__input texarea" name="message" method="POST" placeholder="Сообщение"
+              id="massage" rows="3"></textarea>
+            <button type="submit" class="btn footer__btn">Отправить</button>
+            <input type="checkbox" name="check" method="POST" required class="checkbox" id="check">
+            <label for="check" class="checkbox--text">Согласен на обработку данных</label>
+          </form>
+        </div>
+      </div>
+
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__mask">Мы соблюдаем масочный режим! &#128567; Мы молодцы!</div>
+    <div class="flex map__container">
+      <div class="footer__block">
+        <p class="footer__text">Как нас найти</p>
+        <div id="map" class="map__block"></div>
+      </div>
+      <div class="footer__block">
+        <p class="footer__text">Как с нами связаться</p>
+        <div class="footer__block-shadow">
+          <div class="flex footer__text-info">
+            <p class="footer__text-p">Для посетителей</p>
+            <a href="tel:+74953225448" class="footer__link">+7 495 322 54 48</a>
+          </div>
+          <div class="flex footer__text-info">
+            <p class="footer__text-p">Для сотрудничества</p>
+            <div>
+              <a href="tel:+74953225440" class="footer__link">+7 495 322 54 40</a>
+              <a href="mailto:neonbutic@mail.ru" class="footer__link">neonbutic@mail.ru</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer__copiright">
+      ©&nbsp;<span>2015—2021</span>&nbsp;<a href="">&laquo;NEON BOUNTIQUE&raquo;</a>
+      <p class="footer__orlov">Разработано Orlov Arthur</p>
+      <p class="pushcat">Погладь котика</p>
+    </div>
+    <div class="cat">
+      <div class="left-ear"></div>
+      <div class="right-ear"></div>
+      <div class="head">
+        <div class="eye left-eye">
+          <span></span>
+        </div>
+        <div class="eye right-eye">
+          <span></span>
+        </div>
+        <div class="eye-cover left-eye-cover">
+        </div>
+        <div class="eye-cover right-eye-cover">
+        </div>
+        <div class="nose">
+          <span></span>
+          <span></span>
+        </div>
+        <div class="mouth">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="whisker left-whisker">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="whisker right-whisker">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+  <script src="./js/tabs.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+  <script type="text/javascript">
+    ymaps.ready(init);
+    function init() {
+      var myMap = new ymaps.Map("map", {
+        center: [55.765645, 37.640587],
+        zoom: 16
+      });
+
+      var myGeoObject = new ymaps.GeoObject({
+        geometry: {
+          type: "Point",
+          coordinates: [55.765645, 37.640587]
+        }
+      });
+
+      var myPlacemark = new ymaps.Placemark([55.765645, 37.640587], {});
+      myMap.geoObjects.add(myPlacemark);
+    }
+  </script>
+  <script>
+    const swiper = new Swiper('.swiper-container', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+
+</html>
